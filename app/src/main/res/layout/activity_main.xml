@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.lounchy.practicaimc.MainActivity"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:background="#c0f9f4fa"
+    >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:background="#c0f9f4fa"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+
+    <RelativeLayout
+        style="@style/WidthAndHeight"
+        android:layout_gravity="center"
+        android:layout_weight="70"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/heading"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:layout_marginBottom="8dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/texto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/texto"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_below="@id/heading"/>
+
+        <TextView
+            android:id="@+id/formula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/formula"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_below="@id/texto"/>
+
+        <Button
+            android:id="@+id/ver_tabla_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/formula"
+            android:layout_marginBottom="8dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/ver_tabla"
+            android:backgroundTint="#fc9240" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray"
+            android:layout_below="@id/ver_tabla_button"
+            android:layout_marginBottom="4dp"/>
+
+        <ImageView
+            android:id="@+id/imagen"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/view"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/image_imc"
+            android:background="@android:color/white"/>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        style="@style/WidthAndHeight"
+        android:layout_weight="20"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:layout_marginBottom="8dp"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="60"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="50"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:text="@string/introduzca_altura" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="50"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:text="@string/introduzca_peso" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="40"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/altura_et"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="50"
+                android:gravity="center"
+                android:hint="@string/cm"
+                android:inputType="numberDecimal"/>
+
+            <EditText
+                android:id="@+id/peso_et"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="50"
+                android:gravity="center"
+                android:hint="@string/kg"
+                android:inputType="numberDecimal"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        style="@style/WidthAndHeight"
+        android:layout_weight="10">
+
+        <Button
+            android:id="@+id/calcular_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:text="@string/calcular"
+            android:backgroundTint="#fc9240" />
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
+

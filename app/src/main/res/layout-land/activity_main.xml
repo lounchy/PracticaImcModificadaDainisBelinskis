@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lounchy.practicaimc.MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#c0f9f4fa"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.lounchy.practicaimc.MainActivity">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="4dp"
+            android:layout_weight="70">
+
+            <TextView
+                android:id="@+id/heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="@string/heading"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/texto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/heading"
+                android:layout_marginBottom="8dp"
+                android:text="@string/texto"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/formula"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/texto"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/formula"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+
+            <Button
+                android:id="@+id/ver_tabla_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/formula"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#fc9240"
+                android:text="@string/ver_tabla" />
+
+            <ImageView
+                android:id="@+id/imagen"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/formula"
+                android:layout_toLeftOf="@+id/ver_tabla_button"
+                android:background="@android:color/white"
+                android:src="@drawable/image_imc_izq" />
+
+            <ImageView
+                android:id="@+id/imagen2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/ver_tabla_button"
+                android:background="@android:color/white"
+                android:src="@drawable/image_imc_der" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="2dp"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/darker_gray"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="30"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="50"
+                android:gravity="center"
+                android:text="@string/introduzca_altura"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/altura_et"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="50"
+                android:gravity="center"
+                android:hint="@string/cm"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="50"
+                android:gravity="center"
+                android:text="@string/introduzca_peso"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/peso_et"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="50"
+                android:gravity="center"
+                android:hint="@string/kg"
+                android:inputType="numberDecimal" />
+
+            <Button
+                android:id="@+id/calcular_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#fc9240"
+                android:gravity="center"
+                android:text="@string/calcular" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+

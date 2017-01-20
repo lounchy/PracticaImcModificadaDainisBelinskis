@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lounchy.practicaimc.MainActivity">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#c0f9f4fa">
+
+
+        <LinearLayout
+            android:id="@+id/text_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:text="@string/resultado"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/resultado_imc_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_toRightOf="@id/heading"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                tools:text="20" />
+
+            <TextView
+                android:id="@+id/resultado_texto_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/resultado_imc_tv"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                tools:text="Usted tiene peso ideal" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/result_image_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="32dp"
+            android:backgroundTint="#fc9240"
+            tools:src="@drawable/image_imc_peso_ideal" />
+
+
+        <Button
+            android:id="@id/volver_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:backgroundTint="#fc9240"
+            android:text="@string/volver" />
+
+
+    </RelativeLayout>
+</ScrollView>

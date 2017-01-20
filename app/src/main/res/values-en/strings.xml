@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="altura_m_tabla">Height (m)</string>
+    <string name="bajo_peso">You are underweight</string>
+    <string name="bajo_peso_tabla">Under weight</string>
+    <string name="calcular">Calculate</string>
+    <string name="cm">in (cm)</string>
+    <string name="comrueba_peso_altura">Check if you have entered your height and weight correctly</string>
+    <string name="error">There is an error! Check if you have correctly entered your height and weight.</string>
+    <string name="formula">IMC = kg/m2</string>
+    <string name="heading">Body Mass Index</string>
+    <string name="introduzca_altura">Enter your height:</string>
+    <string name="introduzca_peso">Enter your weight:</string>
+    <string name="kg">in (kg)</string>
+    <string name="obesidad">You have obesity</string>
+    <string name="obesidad_m_rbida">Morbid obesity</string>
+    <string name="obesidad_tabla">Obesity</string>
+    <string name="obesidad_morbida">You have morbid obesity</string>
+    <string name="peso_ideal">Usted tiene peso ideal</string>
+    <string name="peso_ideal_tabla">Ideal weight</string>
+    <string name="resultado">Result:</string>
+    <string name="sobrepeso">Yoy have overweight</string>
+    <string name="sobrepeso_tabla">Overweight</string>
+    <string name="texto">To find out if a person has an adequate and healthy weight, doctors calculate their body mass index (BMI)</string>
+    <string name="ver_tabla">See table</string>
+    <string name="volver">Back</string>
+</resources>

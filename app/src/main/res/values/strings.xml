@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Calculadora IMC</string>
+
+
+    //Strings para activity_main y activity_main_land.
+    <string name="introduzca_altura">Introduzca su altura: </string>
+    <string name="introduzca_peso">Introduzca su peso: </string>
+    <string name="cm">en (cm)</string>
+    <string name="kg">en (kg)</string>
+    <string name="calcular">Calcular</string>
+    <string name="texto">Para saber si una persona tiene un peso adecuado y saludable, los médicos calculan su
+        índice de masa corporal(IMC)</string>
+    <string name="formula">IMC = kg/m2</string>
+    <string name="heading">Índice de masa corporal</string>
+    <string name="ver_tabla">Ver tabla</string>
+
+
+    //Strings para activity_resultado_xml
+    <string name="resultado">Resultado:</string>
+    <string name="volver">Volver</string>
+
+    <string name="bajo_peso">Usted está bajo peso</string>
+    <string name="peso_ideal">Usted tiene peso ideal</string>
+    <string name="sobrepeso">Usted tiene sobrepeso</string>
+    <string name="obesidad">Usted tiene obesidad</string>
+    <string name="obesidad_morbida">Usted tiene obesidad mórbida</string>
+
+    //Strings para contenido_tabla_xml
+    <string name="obesidad_m_rbida">Obesidad mórbida</string>
+    <string name="obesidad_tabla">Obesidad</string>
+    <string name="sobrepeso_tabla">Sobrepeso</string>
+    <string name="peso_ideal_tabla">Peso ideal</string>
+    <string name="bajo_peso_tabla">Bajo Peso</string>
+    <string name="altura_m_tabla">Altura (m)</string>
+
+    //Errores
+    <string name="comrueba_peso_altura">Comprueba si usted ha introducido su altura y su peso corectamente</string>
+    <string name="error">Ha producido un error! Compruebe si usted ha introducido corectamente su altura y su peso.</string>
+
+
+
+</resources>

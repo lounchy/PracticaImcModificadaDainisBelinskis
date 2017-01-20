@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PracticaImc</string>
+    <string name="formula">IMC = kg/m2</string>
+    <string name="altura_m_tabla">Altezza (m)</string>
+    <string name="bajo_peso">Si è sottopeso</string>
+    <string name="bajo_peso_tabla">Sottopeso</string>
+    <string name="calcular">Calcolare</string>
+    <string name="cm">in (cm)</string>
+    <string name="comrueba_peso_altura">Controlla se hai inserito il tuo peso e altezza di attivazione corretta</string>
+    <string name="error">E \'stato un errore! Controllare se avete inserito la vostra altezza e peso.</string>
+    <string name="heading">Indice di massa corporea</string>
+    <string name="introduzca_altura">Inserisci la tua altezza:</string>
+    <string name="introduzca_peso">Inserisci il tuo peso:</string>
+    <string name="kg">a (kg)</string>
+    <string name="obesidad">Hai obesità</string>
+    <string name="obesidad_m_rbida">Obesità patologica</string>
+    <string name="obesidad_morbida">Hai obesità patologica</string>
+    <string name="obesidad_tabla">Obesità</string>
+    <string name="peso_ideal">Hai peso ideale</string>
+    <string name="peso_ideal_tabla">Peso ideale</string>
+    <string name="resultado">Risultato:</string>
+    <string name="sobrepeso">Si è in sovrappeso</string>
+    <string name="sobrepeso_tabla">Sovrappeso</string>
+    <string name="texto">Per scoprire se una persona ha un diritto e peso sano, i medici calcolano il vostro indice di massa corporea (BMI)</string>
+    <string name="ver_tabla">Vedi tabella</string>
+    <string name="volver">Ritorno</string>
+</resources>

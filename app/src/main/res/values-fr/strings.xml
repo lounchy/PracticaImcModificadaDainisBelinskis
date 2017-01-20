@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PracticaImc</string>
+    <string name="formula">IMC = kg/m2</string>
+    <string name="altura_m_tabla">Hauteur (m)</string>
+    <string name="bajo_peso">Vous êtes une insuffisance pondérale</string>
+    <string name="bajo_peso_tabla">Souspondérer</string>
+    <string name="calcular">Calculer</string>
+    <string name="cm">en (cm)</string>
+    <string name="comrueba_peso_altura">Vérifiez si vous avez entré votre taille et votre poids activation correcte</string>
+    <string name="error">Ce fut une erreur! Vérifiez si vous avez entré votre taille et votre poids.</string>
+    <string name="heading">Indice de masse corporelle</string>
+    <string name="introduzca_altura">Entrez votre taille:</string>
+    <string name="introduzca_peso">Entrez votre poids:</string>
+    <string name="kg">en (kg)</string>
+    <string name="obesidad">Vous avez l\'obésité</string>
+    <string name="obesidad_m_rbida">l\'obésité morbide</string>
+    <string name="obesidad_morbida">Vous avez l\'obésité morbide</string>
+    <string name="obesidad_tabla">Obesidad</string>
+    <string name="peso_ideal">Vous avez un poids idéal</string>
+    <string name="peso_ideal_tabla">Poids idéal</string>
+    <string name="resultado">Résultat:</string>
+    <string name="sobrepeso">Vous êtes en surpoids</string>
+    <string name="sobrepeso_tabla">Embonpoint</string>
+    <string name="texto">Pour savoir si une personne a le droit et le poids santé, les médecins calculent votre indice de masse corporelle (IMC)</string>
+    <string name="ver_tabla">Voir tableau</string>
+    <string name="volver">Revenir</string>
+</resources>

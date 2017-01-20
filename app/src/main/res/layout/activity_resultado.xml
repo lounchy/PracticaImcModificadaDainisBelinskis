@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c0f9f4fa">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/resultado"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="8dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/resultado_imc_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textAlignment="center"
+        android:layout_below="@id/heading"
+        tools:text="20"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/resultado_texto_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textAlignment="center"
+        android:layout_below="@id/resultado_imc_tv"
+        tools:text="Usted tiene peso ideal"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/result_image_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:src="@drawable/image_imc_peso_ideal"
+        android:layout_below="@id/resultado_texto_tv"
+        android:backgroundTint="#fc9240"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/volver_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="@string/volver"
+        android:backgroundTint="#fc9240"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

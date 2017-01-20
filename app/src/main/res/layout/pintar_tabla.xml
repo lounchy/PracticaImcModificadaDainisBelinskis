@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tvAltura"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="150" />
+
+    <TextView
+        android:id="@+id/tvBajoPeso"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        tools:text="150" />
+
+    <TextView
+        android:id="@+id/tvPesoIdeal"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        tools:text="150" />
+
+    <TextView
+        android:id="@+id/tvSobrepeso"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        tools:text="150" />
+
+
+    <TextView
+        android:id="@+id/tvObesidad"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        tools:text="150" />
+
+    <TextView
+        android:id="@+id/tvObesidadMorbida"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        tools:text="150" />
+
+
+</LinearLayout>
